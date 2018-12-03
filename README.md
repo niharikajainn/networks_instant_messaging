@@ -6,4 +6,4 @@ The application assumes the server IP address and port number are well-known, an
 
 A client with some (username) and (password) can login with keyboard input of the form "(username)->server#login<(password)>". Clients can send messages to one other with keyboard input of the form "(client_a_username)->(client_b_username)#(some message)". Clients can send files to one another with keyboard input of the form "(client_a_username)->(client_b_username)#file<(some filename)>".
 
-Console output will include all forwarded messages and acknowledgments.
+Console output will include error messages, forwarded messages, and acknowledgments. Files transferred will be downloaded to the current working directory.
